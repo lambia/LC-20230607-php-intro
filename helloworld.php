@@ -105,7 +105,7 @@
         <pre>
             <?php
                 //Esplodiamo in un array. Per ora php ci scrive array, avremmo bisogno var dump ma lo vedremo più avanti, non importa per ora
-                $stringaEsplosa = explode('...', $string);
+                $stringaEsplosa = explode(' ', $string);
                 var_dump($stringaEsplosa);
             ?>
         </pre>
